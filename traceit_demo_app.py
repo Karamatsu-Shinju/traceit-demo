@@ -299,7 +299,7 @@ with tab4:
     # Generate needle data
     random.seed(77)
     needle_batches = []
-    brands = ['H&M', 'Zara', 'M&S', 'Uniqlo', 'Levi's']
+    brands = ["H&M", "Zara", "M&S", "Uniqlo", "Levi's"]
 
     for i in range(30):
         batch = f'NDL-BATCH-{2026}{random.randint(100, 999)}'
